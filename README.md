@@ -86,7 +86,7 @@ for layer in pre_trained_model.layers:
 
 pre_trained_model.summary()
 # Write Your Code
-print('Name: Kavinesh M     Register Number: 212222230064')
+print('Name: Gurumoorthi R    Register Number: 212222230042')
 
 last_layer = pre_trained_model.get_layer('mixed7')
 print('last layer output shape: ', last_layer.output.shape)
@@ -176,7 +176,7 @@ zip_ref.extractall('/tmp/validation')
 zip_ref.close()
 
 model.summary()
-print("Name: Kavinesh M  Reg No: 212222230064")
+print("Name: Gurumoorthi R Reg No: 212222230042")
 
 # Define our example directories and files
 train_dir = '/tmp/training'
@@ -245,7 +245,7 @@ plt.legend(loc=0)
 plt.figure()
 plt.plot(epochs, loss, 'r', label='Training loss')
 plt.plot(epochs, val_loss, 'b', label='Validation Loss')
-plt.title('Name: Kavinesh M      Register Number: 212222230064    ')
+plt.title('Name: Gurumoorhi R      Register Number: 212222230042   ')
 plt.title('Training and validation Loss')
 plt.legend(loc=0)
 plt.figure()
@@ -258,21 +258,24 @@ plt.show()
 ## OUTPUT
 ### Training Accuracy, Validation Accuracy Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/d5e8ff64-7e19-4c3e-aed1-04c80e71753c)
+![ex 3 valida](https://github.com/user-attachments/assets/ed18014e-dc7c-4f3c-ad4c-d011f2fa3c4c)
+
 
 
 </br>
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://github.com/user-attachments/assets/b0ba053d-424c-44bb-b41c-f270a234bfc0)
+
+![ex3 valid loss](https://github.com/user-attachments/assets/4d06f69a-fc26-4519-9954-4a7fb8ce81a9)
 
 
 </br>
 
 ### Conclusion
 
-![image](https://github.com/user-attachments/assets/2736c451-4e0f-45a4-849c-8b38eea012c6)
+![ex3 conc](https://github.com/user-attachments/assets/dd87233f-2d5d-4150-b4b4-a6409e42c767)
+
 
 
 </br>
